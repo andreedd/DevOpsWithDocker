@@ -1,0 +1,17 @@
+Script started on 2020-05-28 13:42:01+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="151" LINES="40"]
+]0;ddeeh@ddeeh-pc: ~/Programming/devops/DevOpsWithDocker/part1[01;32mddeeh@ddeeh-pc[00m:[01;34m~/Programming/devops/DevOpsWithDocker/part1[00m$ docker ps .[K-a
+CONTAINER ID        IMAGE                  COMMAND                  CREATED             STATUS              PORTS                    NAMES
+03a8588dde58        date-website_web       "bash -c './wait-for…"   About an hour ago   Up 26 minutes       0.0.0.0:8000->8000/tcp   date-website_web_1
+c2b40e3e809e        redis:2.8              "docker-entrypoint.s…"   About an hour ago   Up About an hour    0.0.0.0:6379->6379/tcp   date-website_redis_1
+5208b1b6f924        postgres:10.1-alpine   "docker-entrypoint.s…"   About an hour ago   Up About an hour    0.0.0.0:5432->5432/tcp   date-website_db_1
+]0;ddeeh@ddeeh-pc: ~/Programming/devops/DevOpsWithDocker/part1[01;32mddeeh@ddeeh-pc[00m:[01;34m~/Programming/devops/DevOpsWithDocker/part1[00m$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+date-website_web    latest              4bc679cdffe3        About an hour ago   420MB
+<none>              <none>              fa7fa8b05735        20 hours ago        420MB
+python              3.6-slim            f058ddfd3cb8        7 days ago          151MB
+postgres            10.1-alpine         e6c5e6a76255        2 years ago         38.2MB
+redis               2.8                 481995377a04        3 years ago         186MB
+]0;ddeeh@ddeeh-pc: ~/Programming/devops/DevOpsWithDocker/part1[01;32mddeeh@ddeeh-pc[00m:[01;34m~/Programming/devops/DevOpsWithDocker/part1[00m$ exit
+exit
+
+Script done on 2020-05-28 13:42:17+03:00 [COMMAND_EXIT_CODE="0"]

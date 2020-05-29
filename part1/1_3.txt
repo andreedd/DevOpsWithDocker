@@ -1,0 +1,10 @@
+Script started on 2020-05-28 14:23:55+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="151" LINES="40"]
+]0;ddeeh@ddeeh-pc: ~/Programming/devops/DevOpsWithDocker/part1[01;32mddeeh@ddeeh-pc[00m:[01;34m~/Programming/devops/DevOpsWithDocker/part1[00m$ docker run -it devopsdockeruh/pull_excer[K[K[Kercise
+[1G[0JGive me the password: [23Gbasics
+You found the correct password. Secret message is:
+"This is the secret message"
+
+]0;ddeeh@ddeeh-pc: ~/Programming/devops/DevOpsWithDocker/part1[01;32mddeeh@ddeeh-pc[00m:[01;34m~/Programming/devops/DevOpsWithDocker/part1[00m$ exit
+exit
+
+Script done on 2020-05-28 14:24:22+03:00 [COMMAND_EXIT_CODE="0"]
