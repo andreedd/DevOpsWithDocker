@@ -1,0 +1,24 @@
+Script started on 2020-05-29 14:38:52+03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="132" LINES="34"]
+]0;ddeeh@ddeeh-pc: ~/Programming/devops/DevOpsWithDocker/part1[01;32mddeeh@ddeeh-pc[00m:[01;34m~/Programming/devops/DevOpsWithDocker/part1[00m$ docker run -d --rm devopsdockeruh/exec_bash_exercise
+0ff3241adbc6cd7d6d0f8dc29bc0c939844d728e5240d44412eaef5f4eab1498
+]0;ddeeh@ddeeh-pc: ~/Programming/devops/DevOpsWithDocker/part1[01;32mddeeh@ddeeh-pc[00m:[01;34m~/Programming/devops/DevOpsWithDocker/part1[00m$ docker exec -it 0f bash
+root@0ff3241adbc6:/usr/app# [Kroot@0ff3241adbc6:/usr/app# tail -f ./flas    logs.txt
+Fri, 29 May 2020 11:39:02 GMT
+Fri, 29 May 2020 11:39:05 GMT
+Fri, 29 May 2020 11:39:08 GMT
+Fri, 29 May 2020 11:39:11 GMT
+Secret message is:
+"Docker is easy"
+Fri, 29 May 2020 11:39:17 GMT
+Fri, 29 May 2020 11:39:20 GMT
+Fri, 29 May 2020 11:39:23 GMT
+Fri, 29 May 2020 11:39:26 GMT
+^C
+root@0ff3241adbc6:/usr/app# exit
+exit
+]0;ddeeh@ddeeh-pc: ~/Programming/devops/DevOpsWithDocker/part1[01;32mddeeh@ddeeh-pc[00m:[01;34m~/Programming/devops/DevOpsWithDocker/part1[00m$ docker stop 0f
+0f
+]0;ddeeh@ddeeh-pc: ~/Programming/devops/DevOpsWithDocker/part1[01;32mddeeh@ddeeh-pc[00m:[01;34m~/Programming/devops/DevOpsWithDocker/part1[00m$ exit
+exit
+
+Script done on 2020-05-29 14:39:41+03:00 [COMMAND_EXIT_CODE="0"]
