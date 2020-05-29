@@ -1,0 +1,13 @@
+docker run -d -it ubuntu:16.04 sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+docker exec -it ef bash
+
+apt update
+
+apt install curl
+
+exit
+
+docker attach ef
+
+helsinki.fi

@@ -4,9 +4,7 @@ CONTAINER ID        IMAGE                  COMMAND                  CREATED     
 304c14f18fb5        nginx                  "nginx -g 'daemon of…"   47 seconds ago      Exited (0) 21 seconds ago                            peaceful_chebyshev
 bc7a8a1b5839        nginx                  "nginx -g 'daemon of…"   48 seconds ago      Exited (0) 21 seconds ago                            focused_goldberg
 6edaca5c3f47        nginx                  "nginx -g 'daemon of…"   51 seconds ago      Up 50 seconds               80/tcp                   condescending_kare
-03a8588dde58        date-website_web       "bash -c './wait-for…"   About an hour ago   Up 18 minutes               0.0.0.0:8000->8000/tcp   date-website_web_1
-c2b40e3e809e        redis:2.8              "docker-entrypoint.s…"   About an hour ago   Up About an hour            0.0.0.0:6379->6379/tcp   date-website_redis_1
-5208b1b6f924        postgres:10.1-alpine   "docker-entrypoint.s…"   About an hour ago   Up About an hour            0.0.0.0:5432->5432/tcp   date-website_db_1
+
 ]0;ddeeh@ddeeh-pc: ~/Programming/devops/DevOpsWithDocker/part1[01;32mddeeh@ddeeh-pc[00m:[01;34m~/Programming/devops/DevOpsWithDocker/part1[00m$ exit
 exit
 
