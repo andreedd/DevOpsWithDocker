@@ -1,6 +1,13 @@
 version: '3.5'
 
 services:
+        nginx:
+                image: jwilder/nginx-proxy
+                volumes:
+                - /var/run/docker.sock:/tmp/docker.sock:ro 
+                - ./nginx.conf:/etc/nginx/nginx.conf
+                ports: 
+                - 80:80
         frontend:
                 image: frontend-example
                 ports: 
@@ -17,7 +24,6 @@ services:
                 - DB_HOST=db
                 depends_on:
                 - db
-                - redis-db
         redis-db:
                 image: redis
                 ports:

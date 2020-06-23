@@ -22,9 +22,13 @@ services:
                 image: redis
                 ports:
                 - 6379:6379
+                volumes:
+                        - ./redis-db:/data
         db:
                 image: postgres
                 restart: unless-stopped
                 environment:
                   POSTGRES_PASSWORD: example
+                volumes:
+                - ./database:/var/lib/postgresql/data
 

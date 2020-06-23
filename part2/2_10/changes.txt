@@ -1,0 +1,9 @@
+Changed frontend and backend environment variable
+
+Frontend:
+
+	ENV API_URL=http://0.0.0.0:8000 -> ENV API_URL=/api
+
+backend:
+	
+	ENV FRONT_URL=http://0.0.0.0:5000 -> ENV FRONT_URL=http://localhost
