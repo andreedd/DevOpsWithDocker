@@ -1,0 +1,6 @@
+OLD:
+java-spring                            latest              73000e5c3a2b        4 weeks ago          596MB
+
+NEW:
+java-spring-ms                         latest              efd26400552c        3 minutes ago       141MB
+

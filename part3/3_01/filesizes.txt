@@ -1,0 +1,7 @@
+BEFORE:
+backend-example                        latest              371c260eb531        3 weeks ago         979MB
+frontend-example                       latest              86d98cff291b        3 weeks ago         1.16GB
+
+AFTER:
+frontend-example                       latest              3987e080decc        6 minutes ago       524MB
+backend-example                        latest              960a7915d66f        21 minutes ago      348MB

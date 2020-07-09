@@ -1,0 +1,7 @@
+BEFORE:
+backend-example                        latest              79c17c159a57        3 days ago          349MB
+frontend-example                       latest              472e04e392c9        3 days ago          525MB
+
+AFTER:
+frontend-example-alpine                latest              ec76bd037499        6 minutes ago       330MB
+backend-example-alpine                 latest              ddac4473ee80        2 hours ago         154MB
