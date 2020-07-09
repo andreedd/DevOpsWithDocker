@@ -1,15 +1,14 @@
-#SET:
+#### SET:
 
-in
-example.env
-set
+in example.env
+
 DOCKER_USERNAME
-&
-DOCKER_PASSWORD
-&
-DOCKER_REPO_URL
 
-#RUN WITH:
+DOCKER_PASSWORD
+
+GIT_REPO_URL
+
+#### RUN WITH:
 
 docker build -t IMAGE_NAME .
 
