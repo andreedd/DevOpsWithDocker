@@ -8,3 +8,6 @@ You found the correct password. Secret message is:
 exit
 
 Script done on 2020-05-28 14:24:22+03:00 [COMMAND_EXIT_CODE="0"]
+
+####
+Password is from the overview in docker hub
